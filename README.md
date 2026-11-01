@@ -12,40 +12,56 @@
 
 <br/>
 
-![Project Status](https://img.shields.io/badge/Status-In%20Development-7C5CFC?style=for-the-badge)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+<a href="https://creatorhub-5.vercel.app/">
+<img src="https://img.shields.io/badge/🚀_EXPLORE_LIVE_PROJECT-7C5CFC?style=for-the-badge" />
+</a>
+
+<a href="https://github.com/VNcode914/Creator_Hub">
+<img src="https://img.shields.io/badge/VIEW_SOURCE_CODE-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
+
+![First Vibe Coded Project](https://img.shields.io/badge/FIRST-VIBE--CODED%20PROJECT-9B5DE5?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Live-00C853?style=flat-square)
 
 </div>
 
 ---
 
-## 🚀 About the Project
+## 🌌 About CreatorHub
 
-**CreatorHub** is a web-based platform designed to bring creator-focused experiences together in one place.
+**CreatorHub** is my first-ever vibe-coded project! ✨
 
-Built with a modern frontend stack and Supabase backend, the project focuses on a smooth user experience, secure authentication and a clean interface.
+An idea that started with curiosity and experimentation turned into a live web application.
 
-The goal is simple: create a platform that is easy to use, accessible and ready to grow.
+Built using modern web technologies, React, TypeScript and Supabase, CreatorHub is my attempt at exploring what's possible when creativity meets development.
+
+This project represents my first step into vibe coding — learning, experimenting, building and bringing an idea to life.
+
+**Not perfect, but built, launched and growing.** 🚀
 
 ## ✨ Features
 
-- 🔐 **User Authentication** – Email and password-based sign-up and login.
-- ☁️ **Supabase Integration** – Backend authentication and database connectivity.
-- 🎨 **Modern Interface** – A clean and engaging user experience.
-- 📱 **Responsive Design** – Designed to work across different screen sizes.
-- ⚡ **Fast Performance** – Powered by Vite and React.
+- 🔐 **User Authentication** — Email and password-based registration and login.
+- ☁️ **Supabase Integration** — Backend authentication and database connectivity.
+- 🎨 **Modern UI** — Clean, engaging and thoughtfully designed interface.
+- 📱 **Responsive Design** — Adaptable across different screen sizes.
+- ⚡ **Modern Frontend** — React, TypeScript and Vite-powered experience.
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
 <div align="center">
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+<img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,supabase&theme=dark" />
+
+<br/><br/>
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
 </div>
 
@@ -56,105 +72,29 @@ The goal is simple: create a platform that is easy to use, accessible and ready 
 | Vite | Development and build tooling |
 | Tailwind CSS | Styling |
 | Supabase | Authentication and database |
-| Netlify | Deployment |
 
-## 📂 Project Structure
+## 🖼️ Project Preview
 
-```text
-CreatorHub/
-│
-├── public/              # Static assets
-├── src/
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Application pages
-│   ├── assets/          # Images and other assets
-│   ├── lib/             # Supabase and utilities
-│   └── main.tsx         # Application entry point
-│
-├── .env.example
-├── index.html
-├── package.json
-└── vite.config.ts
-```
+<div align="center">
 
-*Folder names may vary depending on the current project structure.*
+### Experience CreatorHub
 
-## ⚙️ Getting Started
+<a href="https://creatorhub-5.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_VISIT_CREATORHUB-7C5CFC?style=for-the-badge" />
+</a>
 
-Want to run CreatorHub locally?
+<br/><br/>
 
-### 1. Clone the repository
+_Add screenshots of the actual application here._
 
-```bash
-git clone https://github.com/VNcode914/Creator_Hub.git
-```
+</div>
 
-### 2. Navigate to the project
-
-```bash
-cd Creator_Hub
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Configure environment variables
-
-Create a `.env.local` file in the project root:
-
-```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_publishable_or_anon_key
-```
-
-Replace the placeholders with your actual Supabase project credentials.
-
-**Important:** Never commit your `.env.local` file or expose privileged Supabase keys.
-
-### 5. Start the development server
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed in your terminal.
-
-### 6. Build for production
-
-```bash
-npm run build
-```
-
-## 🔐 Authentication
-
-CreatorHub uses Supabase Authentication for:
-
-- Account registration
-- Email and password login
-- User session management
-- Logout functionality
-
-Authentication is handled by Supabase rather than storing raw passwords in the application.
-
-## 🌐 Deployment
-
-The project is configured for deployment using Netlify.
-
-1. Connect the GitHub repository to Netlify.
-2. Set the build command to `npm run build`.
-3. Set the publish directory to `dist`.
-4. Add the required Supabase environment variables.
-5. Deploy your website.
-
-## 🗺️ Future Scope
+## 🌱 What's Next?
 
 - More creator-focused features.
-- Improved user experience.
-- Additional platform management capabilities.
-- Further performance and accessibility improvements.
+- Improved interactions and user experience.
+- Additional platform capabilities.
+- Continuous UI and performance improvements.
 
 ## 👩‍💻 Developer
 
@@ -162,9 +102,11 @@ The project is configured for deployment using Netlify.
 
 ### Vanshika
 
-B.Tech Computer Science & Engineering
+B.Tech | Computer Science & Engineering
 
-[![GitHub](https://img.shields.io/badge/GitHub-VNcode914-181717?style=for-the-badge&logo=github)](https://github.com/VNcode914)
+<a href="https://github.com/VNcode914">
+<img src="https://img.shields.io/badge/GitHub-VNcode914-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 </div>
 
@@ -174,8 +116,8 @@ B.Tech Computer Science & Engineering
 
 ### 💜 Thanks for visiting CreatorHub!
 
-*Built with creativity, curiosity and a little bit of code.*
+*My first vibe-coded project. The beginning of many more.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C5CFC,100:00D4FF&height=120&section=footer" width="100%" alt="Animated purple and cyan footer wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C5CFC,100:00D4FF&height=120&section=footer" width="100%" />
 
 </div>
