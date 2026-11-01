@@ -85,7 +85,6 @@ This project represents my first step into vibe coding — learning, experimenti
 
 <br/><br/>
 
-_Add screenshots of the actual application here._
 
 </div>
 
